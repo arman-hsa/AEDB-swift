@@ -26,6 +26,11 @@ class AESwiftDatabaseTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func testGetAllMechs(){
+        let testViewModel:AEMechaListViewModel = AEMechaListViewModel()
+        XCTAssertNotNil(testViewModel.getAllMechsFromRequest())
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measureBlock {

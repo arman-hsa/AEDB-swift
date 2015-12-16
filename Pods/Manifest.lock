@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (3.1.3)
+  - Quick (0.8.0)
+  - RxBlocking (2.0.0-beta.4):
+    - RxSwift (~> 2.0.0-beta)
+  - RxCocoa (2.0.0-beta.4):
+    - RxSwift (~> 2.0.0-beta)
+  - RxSwift (2.0.0-beta.4)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SVProgressHUD (1.1.3)
+  - SVPullToRefresh (0.4.1)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.1)
+  - Quick
+  - RxBlocking (~> 2.0.0-beta)
+  - RxCocoa (~> 2.0.0-beta)
+  - RxSwift (~> 2.0.0-beta)
+  - SDWebImage (~> 3.7.3)
+  - SVProgressHUD (~> 1.1)
+  - SVPullToRefresh
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 8e618c8baf6323a5079c6549bb38d48357b31630
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 9f93b56389e48def9220dd57d1f44b1927229a5a
+  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
+  RxBlocking: 234b0c161315ff3ade25c11e48d74e9ca83158b5
+  RxCocoa: 4a3e433e6dfe116362ff54423c841cc0f209e009
+  RxSwift: 191c6b06da783a8671433cf35a54d2ad2fd2d9de
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0

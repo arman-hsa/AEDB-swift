@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0126531BF789A60055F901 /* AEMech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0126521BF789A60055F901 /* AEMech.swift */; };
+		4D0126551BF790A20055F901 /* AEMechaListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0126541BF790A20055F901 /* AEMechaListViewModel.swift */; };
+		4D12A61A1C18B8E300E9EC21 /* AEMechList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12A6191C18B8E300E9EC21 /* AEMechList.swift */; };
+		4D12A61C1C1A373F00E9EC21 /* AETableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12A61B1C1A373F00E9EC21 /* AETableViewController.swift */; };
+		4D8CD1161C1796AD00AE3842 /* AETableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CD1151C1796AD00AE3842 /* AETableViewCell.swift */; };
+		4D8CD11D1C179E6600AE3842 /* something.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CD11C1C179E6600AE3842 /* something.m */; };
 		4D94AF3F1BEABE2C0020090B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D94AF3E1BEABE2C0020090B /* AppDelegate.swift */; };
 		4D94AF411BEABE2C0020090B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D94AF401BEABE2C0020090B /* ViewController.swift */; };
 		4D94AF441BEABE2C0020090B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D94AF421BEABE2C0020090B /* Main.storyboard */; };
@@ -14,6 +20,8 @@
 		4D94AF491BEABE2C0020090B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D94AF471BEABE2C0020090B /* LaunchScreen.storyboard */; };
 		4D94AF541BEABE2C0020090B /* AESwiftDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D94AF531BEABE2C0020090B /* AESwiftDatabaseTests.swift */; };
 		4D94AF5F1BEABE2C0020090B /* AESwiftDatabaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D94AF5E1BEABE2C0020090B /* AESwiftDatabaseUITests.swift */; };
+		86355AFF1D00DA81EA496382 /* Pods_AESwiftDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E107A89E660033DFDA1AA38 /* Pods_AESwiftDatabase.framework */; };
+		E3EF9960086E0DC7446A3F67 /* Pods_AESwiftDatabaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B133D26127F7067796CFF33A /* Pods_AESwiftDatabaseTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D0126521BF789A60055F901 /* AEMech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEMech.swift; sourceTree = "<group>"; };
+		4D0126541BF790A20055F901 /* AEMechaListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEMechaListViewModel.swift; sourceTree = "<group>"; };
+		4D12A6191C18B8E300E9EC21 /* AEMechList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEMechList.swift; sourceTree = "<group>"; };
+		4D12A61B1C1A373F00E9EC21 /* AETableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AETableViewController.swift; sourceTree = "<group>"; };
+		4D8CD1151C1796AD00AE3842 /* AETableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AETableViewCell.swift; sourceTree = "<group>"; };
+		4D8CD11B1C179E6600AE3842 /* AESwiftDatabase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AESwiftDatabase-Bridging-Header.h"; sourceTree = "<group>"; };
+		4D8CD11C1C179E6600AE3842 /* something.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = something.m; sourceTree = "<group>"; };
 		4D94AF3B1BEABE2C0020090B /* AESwiftDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AESwiftDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D94AF3E1BEABE2C0020090B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D94AF401BEABE2C0020090B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,12 @@
 		4D94AF5A1BEABE2C0020090B /* AESwiftDatabaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AESwiftDatabaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D94AF5E1BEABE2C0020090B /* AESwiftDatabaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESwiftDatabaseUITests.swift; sourceTree = "<group>"; };
 		4D94AF601BEABE2C0020090B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6140FE41F1E0C84C49837B0B /* Pods-AESwiftDatabaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESwiftDatabaseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AESwiftDatabaseTests/Pods-AESwiftDatabaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E107A89E660033DFDA1AA38 /* Pods_AESwiftDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AESwiftDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6C2F9AC8ABD21613828F44 /* Pods-AESwiftDatabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESwiftDatabase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AESwiftDatabase/Pods-AESwiftDatabase.debug.xcconfig"; sourceTree = "<group>"; };
+		AA23837B61A7326058C2FE3B /* Pods-AESwiftDatabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESwiftDatabase.release.xcconfig"; path = "Pods/Target Support Files/Pods-AESwiftDatabase/Pods-AESwiftDatabase.release.xcconfig"; sourceTree = "<group>"; };
+		B133D26127F7067796CFF33A /* Pods_AESwiftDatabaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AESwiftDatabaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC43DB3A25A9898695F88D9 /* Pods-AESwiftDatabaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESwiftDatabaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AESwiftDatabaseTests/Pods-AESwiftDatabaseTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86355AFF1D00DA81EA496382 /* Pods_AESwiftDatabase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3EF9960086E0DC7446A3F67 /* Pods_AESwiftDatabaseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				4D94AF521BEABE2C0020090B /* AESwiftDatabaseTests */,
 				4D94AF5D1BEABE2C0020090B /* AESwiftDatabaseUITests */,
 				4D94AF3C1BEABE2C0020090B /* Products */,
+				EC1724FF3ABD1CA3614336C6 /* Pods */,
+				BA6FEDBAB828C9B0E26A176F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +122,18 @@
 		4D94AF3D1BEABE2C0020090B /* AESwiftDatabase */ = {
 			isa = PBXGroup;
 			children = (
+				4D94AF741BEAC7540020090B /* Bridging Header */,
 				4D94AF3E1BEABE2C0020090B /* AppDelegate.swift */,
 				4D94AF401BEABE2C0020090B /* ViewController.swift */,
 				4D94AF421BEABE2C0020090B /* Main.storyboard */,
 				4D94AF451BEABE2C0020090B /* Assets.xcassets */,
 				4D94AF471BEABE2C0020090B /* LaunchScreen.storyboard */,
 				4D94AF4A1BEABE2C0020090B /* Info.plist */,
+				4D0126521BF789A60055F901 /* AEMech.swift */,
+				4D0126541BF790A20055F901 /* AEMechaListViewModel.swift */,
+				4D8CD1151C1796AD00AE3842 /* AETableViewCell.swift */,
+				4D12A6191C18B8E300E9EC21 /* AEMechList.swift */,
+				4D12A61B1C1A373F00E9EC21 /* AETableViewController.swift */,
 			);
 			path = AESwiftDatabase;
 			sourceTree = "<group>";
@@ -125,6 +156,35 @@
 			path = AESwiftDatabaseUITests;
 			sourceTree = "<group>";
 		};
+		4D94AF741BEAC7540020090B /* Bridging Header */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CD11C1C179E6600AE3842 /* something.m */,
+				4D8CD11B1C179E6600AE3842 /* AESwiftDatabase-Bridging-Header.h */,
+			);
+			name = "Bridging Header";
+			sourceTree = "<group>";
+		};
+		BA6FEDBAB828C9B0E26A176F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E107A89E660033DFDA1AA38 /* Pods_AESwiftDatabase.framework */,
+				B133D26127F7067796CFF33A /* Pods_AESwiftDatabaseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC1724FF3ABD1CA3614336C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A6C2F9AC8ABD21613828F44 /* Pods-AESwiftDatabase.debug.xcconfig */,
+				AA23837B61A7326058C2FE3B /* Pods-AESwiftDatabase.release.xcconfig */,
+				DFC43DB3A25A9898695F88D9 /* Pods-AESwiftDatabaseTests.debug.xcconfig */,
+				6140FE41F1E0C84C49837B0B /* Pods-AESwiftDatabaseTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D94AF631BEABE2C0020090B /* Build configuration list for PBXNativeTarget "AESwiftDatabase" */;
 			buildPhases = (
+				D852B65B40C0F19C838B95EA /* Check Pods Manifest.lock */,
 				4D94AF371BEABE2C0020090B /* Sources */,
 				4D94AF381BEABE2C0020090B /* Frameworks */,
 				4D94AF391BEABE2C0020090B /* Resources */,
+				6E08C551E800A89027361F70 /* Embed Pods Frameworks */,
+				1666F69C3883948E2937A6CB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D94AF661BEABE2C0020090B /* Build configuration list for PBXNativeTarget "AESwiftDatabaseTests" */;
 			buildPhases = (
+				0430231ABEB391799DA17F36 /* Check Pods Manifest.lock */,
 				4D94AF4B1BEABE2C0020090B /* Sources */,
 				4D94AF4C1BEABE2C0020090B /* Frameworks */,
 				4D94AF4D1BEABE2C0020090B /* Resources */,
+				88BA3479BB42DC43A209FF8B /* Embed Pods Frameworks */,
+				3383B7FFA7721451AE262ADF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +317,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0430231ABEB391799DA17F36 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1666F69C3883948E2937A6CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AESwiftDatabase/Pods-AESwiftDatabase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3383B7FFA7721451AE262ADF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AESwiftDatabaseTests/Pods-AESwiftDatabaseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E08C551E800A89027361F70 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AESwiftDatabase/Pods-AESwiftDatabase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88BA3479BB42DC43A209FF8B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AESwiftDatabaseTests/Pods-AESwiftDatabaseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D852B65B40C0F19C838B95EA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D94AF371BEABE2C0020090B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8CD11D1C179E6600AE3842 /* something.m in Sources */,
+				4D0126531BF789A60055F901 /* AEMech.swift in Sources */,
+				4D0126551BF790A20055F901 /* AEMechaListViewModel.swift in Sources */,
+				4D12A61C1C1A373F00E9EC21 /* AETableViewController.swift in Sources */,
+				4D8CD1161C1796AD00AE3842 /* AETableViewCell.swift in Sources */,
 				4D94AF411BEABE2C0020090B /* ViewController.swift in Sources */,
 				4D94AF3F1BEABE2C0020090B /* AppDelegate.swift in Sources */,
+				4D12A61A1C18B8E300E9EC21 /* AEMechList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,28 +560,37 @@
 		};
 		4D94AF641BEABE2C0020090B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6C2F9AC8ABD21613828F44 /* Pods-AESwiftDatabase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AESwiftDatabase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JR3.AESwiftDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AESwiftDatabase/AESwiftDatabase-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		4D94AF651BEABE2C0020090B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA23837B61A7326058C2FE3B /* Pods-AESwiftDatabase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AESwiftDatabase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JR3.AESwiftDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AESwiftDatabase/AESwiftDatabase-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
 		4D94AF671BEABE2C0020090B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC43DB3A25A9898695F88D9 /* Pods-AESwiftDatabaseTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AESwiftDatabaseTests/Info.plist;
@@ -429,6 +603,7 @@
 		};
 		4D94AF681BEABE2C0020090B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6140FE41F1E0C84C49837B0B /* Pods-AESwiftDatabaseTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AESwiftDatabaseTests/Info.plist;
@@ -482,6 +657,7 @@
 				4D94AF651BEABE2C0020090B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D94AF661BEABE2C0020090B /* Build configuration list for PBXNativeTarget "AESwiftDatabaseTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +666,7 @@
 				4D94AF681BEABE2C0020090B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D94AF691BEABE2C0020090B /* Build configuration list for PBXNativeTarget "AESwiftDatabaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +675,7 @@
 				4D94AF6B1BEABE2C0020090B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
