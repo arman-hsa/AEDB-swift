@@ -2,8 +2,8 @@
 //  AETableViewCell.swift
 //  AESwiftDatabase
 //
-//  Created by Julio Reyes on 12/8/15.
-//  Copyright © 2015 Julio Reyes. All rights reserved.
+//  Created by arman on 12/8/15.
+//  Copyright © 2015 arman. All rights reserved.
 //
 
 import UIKit
